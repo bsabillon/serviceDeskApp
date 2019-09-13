@@ -1,0 +1,12 @@
+<mat-toolbar class="mat-elevation-z6 d-block" color="primary">
+
+    <span><mat-icon>home</mat-icon></span>
+    <span fxFlex></span>
+    <a mat-button class="nav-link " routerLink="/">Service Desk Portal</a>
+    <span fxFlex></span>
+    <a mat-button class="nav-link toRight" routerLink="/login" *ngIf="!isLogged">Login</a>
+    <a mat-button class="toRight" (click)="onLogout()" *ngIf="isLogged">Logout</a>
+    
+    
+</mat-toolbar>
+      
