@@ -16,6 +16,7 @@ import {MatButtonModule} from '@angular/material/button';
 import { LoginComponent } from './components/user/login/login.component';
 import { HomeComponent } from './components/home/home.component';
 import { ToolbarComponent } from './components/toolbar/toolbar.component';
+import { Page404Component } from './components/page404/page404.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { ToolbarComponent } from './components/toolbar/toolbar.component';
     AppComponent,
     HomeComponent,
     LoginComponent,
-    ToolbarComponent
+    ToolbarComponent,
+    Page404Component
   ],
   imports: [
     BrowserModule,
