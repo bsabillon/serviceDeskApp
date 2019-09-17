@@ -1,0 +1,11 @@
+.allignCenter {
+    display: flex;
+    flex-direction: column;
+    margin: 1px auto;
+    width: 100%;
+  }
+  
+  .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  }

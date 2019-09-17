@@ -9,6 +9,7 @@ export class ToolbarComponent implements OnInit {
 
   constructor() { }
 
+  public isLogged: boolean = true;
   ngOnInit() {
   }
 

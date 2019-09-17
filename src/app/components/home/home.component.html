@@ -1,1 +1,55 @@
-<p>Home works!</p>
+<mat-card routerLink="/knowledgeBase" class="allignCenter mat-elevation-z8">
+    <mat-card-header>
+      <div mat-card-avatar  class="example-header-image"></div>
+      <mat-card-title>Search for solutions</mat-card-title>
+    </mat-card-header>
+    
+    <mat-card-content>
+      <p>
+        Search the Knowledge Base for answers to common questions and incidents.
+      </p>
+    </mat-card-content>
+
+</mat-card>
+
+<mat-card *ngIf="isLogged" routerLink="/newWorkOrder" class="allignCenter mat-elevation-z8">
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title>Add a new work order</mat-card-title>
+    </mat-card-header>
+    
+    <mat-card-content>
+      <p>
+        Submit a new work order to report an incident.
+      </p>
+    </mat-card-content>
+
+</mat-card>
+
+<mat-card *ngIf="isLogged" routerLink="/myWorkOrders" class="allignCenter mat-elevation-z8">
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title>View my work orders</mat-card-title>
+    </mat-card-header>
+    
+    <mat-card-content>
+      <p>
+        View the status of previously submitted Work Orders.
+      </p>
+    </mat-card-content>
+
+</mat-card>
+
+<mat-card *ngIf="isLogged" routerLink="/profile" class="allignCenter mat-elevation-z8">
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title>Manage my profile</mat-card-title>
+    </mat-card-header>
+    
+    <mat-card-content>
+      <p>
+        View and edit your contact information.
+      </p>
+    </mat-card-content>
+
+</mat-card>
