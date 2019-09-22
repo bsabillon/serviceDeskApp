@@ -40,6 +40,22 @@
 
 </mat-card>
 
+<mat-card *ngIf="isLogged" routerLink="/allWorkOrders" class="allignCenter mat-elevation-z8">
+  <mat-card-header>
+    <div mat-card-avatar class="example-header-image"></div>
+    <mat-card-title>View all work orders</mat-card-title>
+  </mat-card-header>
+  
+  <mat-card-content>
+    <p>
+      View the status of previously submitted Work Orders.
+    </p>
+  </mat-card-content>
+
+</mat-card>
+
+
+
 <mat-card *ngIf="isLogged" routerLink="/profile" class="allignCenter mat-elevation-z8">
     <mat-card-header>
       <div mat-card-avatar class="example-header-image"></div>

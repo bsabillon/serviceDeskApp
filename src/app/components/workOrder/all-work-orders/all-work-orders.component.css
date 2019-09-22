@@ -1,0 +1,17 @@
+.allignCenter {
+    display: flex;
+    flex-direction: column;
+    margin: 1px auto;
+    width: 100%;
+  
+  }
+  
+  .example-header-image {
+    background-image: url('https://cdn4.iconfinder.com/data/icons/erp-software-icon-set-1/512/new_workorder-512.png');
+    background-size: cover;
+  }
+
+  .pokemonPicture{
+    height: 200px;
+    width: 100%;
+  }

@@ -1,0 +1,22 @@
+export interface incident {
+    id: number;
+    source: string,
+    technicianName: string,
+    requestorName: string,
+    callbackMethod: string,
+    symptomsDescription: string,
+    location:string,
+    department: string,
+    affectedUser: string,
+    affectedService: string,
+    incidentSummary: string, 
+    incidentPriority: string, 
+    incidentType: string,
+    incidentSubtype: string,
+    incidentCategory: string,
+    incidentStatus: string,
+    incidentActivity: string,
+    incidentResolution: string,
+    incidentResolutionCategory: string,
+    customerFeedback:string,
+  }

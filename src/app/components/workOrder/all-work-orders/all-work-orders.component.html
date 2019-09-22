@@ -1,0 +1,13 @@
+<div *ngFor="let incident of incidents">
+    <mat-card padding  [routerLink]="[ '../incidentDetails', incident.id]" class="allignCenter mat-elevation-z8">
+        <mat-card-header>
+          <div mat-card-avatar class="example-header-image" ></div>
+          <mat-card-title>{{incident.incidentSummary}} </mat-card-title>
+          <mat-card-subtitle>#{{incident.id}}</mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content>
+          {{incident.incidentPriority}}
+        </mat-card-content>
+    </mat-card>
+
+</div>
